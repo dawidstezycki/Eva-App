@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myapplication.MainActivity">
+
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/leaf1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/leaf"
+        android:layout_alignBottom="@+id/point_counter"
+        android:layout_marginBottom="150dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/leaf2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/leaf1"
+        android:layout_marginLeft="80dp"
+        android:layout_alignBottom="@id/point_counter"
+        android:layout_marginBottom="120dp"
+        android:src="@drawable/leaf"/>
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/leaf3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/leaf1"
+        android:layout_marginLeft="125dp"
+        android:layout_alignBottom="@id/point_counter"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/leaf"/>
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/leaf4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/leaf1"
+        android:layout_marginLeft="125dp"
+        android:layout_alignTop="@id/point_counter"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/leaf"/>
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/leaf5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/leaf1"
+        android:layout_marginLeft="80dp"
+        android:layout_alignTop="@id/point_counter"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/leaf"/>
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/leaf6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/leaf1"
+        android:layout_marginLeft="0dp"
+        android:layout_alignTop="@id/point_counter"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/leaf"/>
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/leaf7"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignRight="@+id/leaf1"
+        android:layout_marginRight="80dp"
+        android:layout_alignTop="@id/point_counter"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/leaf"/>
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/leaf8"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignRight="@+id/leaf1"
+        android:layout_marginRight="125dp"
+        android:layout_alignTop="@id/point_counter"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/leaf"/>
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/leaf9"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignRight="@+id/leaf1"
+        android:layout_marginRight="125dp"
+        android:layout_alignBottom="@id/point_counter"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/leaf"/>
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/leaf10"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignRight="@+id/leaf1"
+        android:layout_marginRight="80dp"
+        android:layout_alignBottom="@id/point_counter"
+        android:layout_marginBottom="120dp"
+        android:src="@drawable/leaf"/>
+
+
+    <TextView
+        android:id="@+id/point_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="80dp"/>
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/totalcigarettes"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Total number of cigerettes: 0"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>
